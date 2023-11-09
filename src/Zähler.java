@@ -1,5 +1,13 @@
-public class Main {
-  public static void main(String[] args) {
-    System.out.println("Hello world!");
+public class Zähler {
+
+  public int zähler = 0;
+
+  private int seriennummer;
+
+  public Zähler(int seriennummer){
+    this.seriennummer=seriennummer;
+  }
+  public int getZähler() {
+    return zähler;
   }
 }

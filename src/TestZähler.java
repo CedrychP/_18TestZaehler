@@ -1,18 +1,11 @@
-public class Zähler {
-
-  public int zähler;
-
-  private int seriennummer;
-
-  public Zähler(int zähler, int seriennummer){
-    this.zähler=zähler;
-    this.seriennummer=seriennummer;
-  }
-  public int getZähler() {
-    return zähler;
-  }
+public class TestZähler {
 
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+    System.out.println("TESTMAIN:***");
+
+    Zähler zähler = new Zähler( 0);
+    //seriennummer ist private und somit nicht zugänglich;
+    //zähler ist zugänglich und public
+
   }
 }
